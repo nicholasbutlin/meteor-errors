@@ -1,9 +1,14 @@
 A simple errors app initially from the discover meteor book.It creates a local collection that holds the errors for a specified period of time. Errors are initially displayed in the browser and then fade out . 
 
 ##Usage: 
-  ```javascript
-  Errors.throw(message)
-  ```
+Add the template to your layout: 
+```html
+{{> meteorErrors}}
+```
+and then whenever you want to throw an error just drop the following in: 
+```javascript
+Errors.throw(message)
+```
 
 Styling is required - no css included, discover meteor tutorial uses the following plus a bit of bootstrap3: 
 ```css
