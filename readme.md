@@ -17,4 +17,15 @@ Styling is required - no css included, discover meteor tutorial uses the followi
   bottom: 0px;
   pointer-events: none;
 }
+.alert {
+          animation: fadeOut 2700ms ease-in 0s 1 forwards;
+  -webkit-animation: fadeOut 2700ms ease-in 0s 1 forwards;
+     -moz-animation: fadeOut 2700ms ease-in 0s 1 forwards;
+  width: 250px;
+  float: right;
+  clear: both;
+  margin-bottom: 5px;
+  pointer-events: auto;
+}
+
 ```
