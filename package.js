@@ -1,7 +1,7 @@
 Package.describe({
   name: 'nickos:errors',
   summary: "A pattern to display application errors to the user",
-  version: "1.0.2",
+  version: "1.0.4",
   git: "https://github.com/nicholasbutlin/meteor-errors.git"
   });
 
